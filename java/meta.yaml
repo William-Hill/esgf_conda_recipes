@@ -1,0 +1,20 @@
+package:
+    name: esgf_java
+    version: "4.0a1"
+
+# source:
+#     url: jdk1.8.0_192-64.tar.gz
+#     fn:
+
+build:
+  number: 0
+  noarch: generic
+
+
+requirements:
+  build:
+    - curl
+
+about:
+    home:  http://esgf.llnl.gov
+    summary: Java tarball

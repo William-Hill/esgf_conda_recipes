@@ -1,0 +1,24 @@
+package:
+    name: esgf_orp
+    version: "4.0a1"
+
+source:
+    - url: ./esgf-security-2.7.18.jar
+    - url: ./esgf-security-test-2.7.18.jar
+
+
+build:
+  number: 0
+  noarch: generic
+
+
+requirements:
+  build:
+    - python
+    - curl
+  run:
+    - python
+
+about:
+    home:  http://esgf.llnl.gov
+    summary: ORP jars

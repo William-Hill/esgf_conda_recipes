@@ -1,0 +1,28 @@
+package:
+    name: esgf_access_logging_filters
+    version: "4.0a1"
+
+source:
+    - url: ./commons-dbcp-1.4.jar
+    - url: ./commons-dbutils-1.3.jar
+    - url: ./commons-pool-1.5.4.jar
+    - url: ./postgresql-8.4-703.jdbc3.jar
+    - url: ./esgf-node-manager-common-1.0.1.jar
+    - url: ./esgf-node-manager-filters-1.0.1.jar
+
+
+build:
+  number: 0
+  noarch: generic
+
+
+requirements:
+  build:
+    - python
+    - curl
+  run:
+    - python
+
+about:
+    home:  http://esgf.llnl.gov
+    summary: ORP jars
